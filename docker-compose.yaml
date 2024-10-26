@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   app:
-    image: organization-api
-    container_name: organization-api
+    # image: organization-api
+    # container_name: organization-api
     build: .
     ports:
       - '8080:3000'
